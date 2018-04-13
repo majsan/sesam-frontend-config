@@ -3,13 +3,13 @@ window.settings = {}
 window.settings.modes = {
   'sesam' : {
     title: {
-      swe: 'Sesam',
-      eng: 'Sesam'
+      swe: 'Föreningen Sesam',
+      eng: '-'
     },
-    lexicons: ['sesammembers'],
+    lexicons: ['sesammembers', 'sesamfroer'],
     infoHTML: {
-      swe: 'Sesams hemsida',
-      eng: 'Sesams page'
+      swe: 'För fröodling och beskydd av kulturväxter i Sverige.',
+      eng: '-'
     }
   }
 }
