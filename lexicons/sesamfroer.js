@@ -37,37 +37,29 @@ window.lexicons.push({
         search: 'latin',
         column: 4
       },
-      'genus': {
+      'family': {
         label: {
-          'swe': 'Genus',
+          'swe': 'Familj',
           'eng': '-'
         },
         search: 'genus',
         column: 5
       },
+      'genus': {
+        label: {
+          'swe': 'Släkte',
+          'eng': '-'
+        },
+        search: 'genus',
+        column: 6
+      },
       'cultivar': {
         label: {
-          'swe': 'Kultivar',
+          'swe': 'Sortnamn',
           'eng': '-'
         },
         search: 'cultivar',
-        column: 6
-      },
-      'anything': {
-        label: {
-          'swe': 'Fritext',
-          'eng': '-'
-        },
-        search: 'anything',
-        column: 2
-      },
-      'sun': {
-        label: {
-          'swe': 'sol',
-          'eng': '-'
-        },
-        search: 'sun',
-        column: 2
+        column: 7
       },
       'zone': {
         label: {
@@ -79,11 +71,11 @@ window.lexicons.push({
       },
       'age': {
         label: {
-          'swe': 'Ålder',
+          'swe': 'Årighet',
           'eng': '-'
         },
         search: 'age',
-        column: 7
+        column: 8
       },
       'mnr': {
         label: {
@@ -91,7 +83,7 @@ window.lexicons.push({
           'eng': '-'
         },
         search: 'mnr',
-        column: 7
+        column: 9
       }
     }
   }
