@@ -3,8 +3,7 @@ window.settings = {}
 window.settings.modes = {
   'sesam' : {
     title: {
-      swe: 'Föreningen Sesam',
-      eng: '-'
+      all: 'Föreningen Sesam'
     },
     lexicons: ['sesammembers', 'sesamfroer'],
     infoHTML: {
