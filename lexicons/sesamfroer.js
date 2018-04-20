@@ -3,6 +3,7 @@ window.lexicons.push({
   name: {
     'all': 'Sesam frökatalog'
   },
+  tabs: ["Frö", "Medlem"],
   view: 'COLUMNS',
   structure: {
     table: 1,
@@ -19,6 +20,7 @@ window.lexicons.push({
         },
         search: 'species',
         column: 1,
+        tab: 0,
         main: true
       },
       'description': {
@@ -27,7 +29,8 @@ window.lexicons.push({
           'eng': '-'
         },
         search: 'description',
-        column: 7
+        column: 7,
+        tab: 0
       },
       'latin': {
         label: {
@@ -35,7 +38,8 @@ window.lexicons.push({
           'eng': '-'
         },
         search: 'latin',
-        column: 4
+        column: 4,
+        tab: 0
       },
       'family': {
         label: {
@@ -43,7 +47,8 @@ window.lexicons.push({
           'eng': '-'
         },
         search: 'genus',
-        column: 5
+        column: 5,
+        tab: 0
       },
       'genus': {
         label: {
@@ -51,7 +56,8 @@ window.lexicons.push({
           'eng': '-'
         },
         search: 'genus',
-        column: 6
+        column: 6,
+        tab: 0
       },
       'cultivar': {
         label: {
@@ -59,7 +65,8 @@ window.lexicons.push({
           'eng': '-'
         },
         search: 'cultivar',
-        column: 7
+        column: 7,
+        tab: 0
       },
       'zone': {
         label: {
@@ -67,7 +74,8 @@ window.lexicons.push({
           'eng': '-'
         },
         search: 'zon',
-        column: 3
+        column: 3,
+        tab: 0
       },
       'age': {
         label: {
@@ -75,7 +83,8 @@ window.lexicons.push({
           'eng': '-'
         },
         search: 'age',
-        column: 8
+        column: 8,
+        tab: 0
       },
       'mnr': {
         label: {
@@ -83,7 +92,8 @@ window.lexicons.push({
           'eng': '-'
         },
         search: 'mnr',
-        column: 9
+        column: 9,
+        tab: 1
       }
     }
   }
