@@ -3,6 +3,7 @@ window.lexicons.push({
   name: {
     'all': 'Sesam medlemsregister'
   },
+  tabs: ["Medlem", "Adress"],
   view: 'COLUMNS',
   structure: {
     table: 1,
@@ -19,6 +20,7 @@ window.lexicons.push({
         },
         search: 'mnr',
         column: 1,
+        tab: 0,
         main: true
       },
       'name': {
@@ -40,6 +42,7 @@ window.lexicons.push({
               'eng': '-'
             },
             search: 'name.firstname',
+            tab: 0,
             column: 2
           },
           "lastname": {
@@ -48,6 +51,7 @@ window.lexicons.push({
               'eng': '-'
             },
             search: 'name.lastname',
+            tab: 0,
             column: 3
           }
         }
@@ -58,7 +62,8 @@ window.lexicons.push({
           'eng': '-'
         },
         search: 'paid',
-        column: 4
+        column: 4,
+        tab: 0
       },
       'familymember': {
         properties: {
@@ -67,14 +72,16 @@ window.lexicons.push({
               'swe': 'Familjemedlem, namn',
               'eng': '-'
             },
-            column: 5
+            column: 5,
+            tab: 0,
           },
           'paid': {
             label: {
               'swe': 'Familjemedlem, betalat',
               'eng': '-'
             },
-            column: 6
+            column: 6,
+            tab: 0
           }
         }
       },
@@ -85,6 +92,7 @@ window.lexicons.push({
               'swe': 'Adress, co',
               'eng': '-'
             },
+            tab: 1,
             column: 7
           },
           'line1': {
@@ -92,6 +100,7 @@ window.lexicons.push({
               'swe': 'Adress, rad 1',
               'eng': '-'
             },
+            tab: 1,
             column: 8
           },
           'line2': {
@@ -99,6 +108,7 @@ window.lexicons.push({
               'swe': 'Adress, rad 2',
               'eng': '-'
             },
+            tab: 1,
             column: 9
           },
           'zipcode': {
@@ -106,6 +116,7 @@ window.lexicons.push({
               'swe': 'Adress, postnummer',
               'eng': '-'
             },
+            tab: 1,
             column: 10
           },
           'city': {
@@ -120,6 +131,7 @@ window.lexicons.push({
               'swe': 'Adress, land',
               'eng': '-'
             },
+            tab: 1,
             column: 12
           },
           'email': {
@@ -127,6 +139,7 @@ window.lexicons.push({
               'swe': 'E-post',
               'eng': '-'
             },
+            tab: 1,
             column: 13
           },
           'telephone': {
@@ -134,6 +147,7 @@ window.lexicons.push({
               'swe': 'Telefonnummer',
               'eng': '-'
             },
+            tab: 1,
             column: 14
           }
         }
@@ -143,6 +157,7 @@ window.lexicons.push({
           'swe': 'Gesäll',
           'eng': '-'
         },
+        tab: 0,
         column: 15
       },
       'alderman': {
@@ -150,6 +165,7 @@ window.lexicons.push({
           'swe': 'Ålderman',
           'eng': '-'
         },
+        tab: 0,
         column: 16
       },
       'otherinfo': {
@@ -157,6 +173,7 @@ window.lexicons.push({
           'swe': 'Övrig info',
           'eng': '-'
         },
+        tab: 0,
         column: 17
       }
     }
