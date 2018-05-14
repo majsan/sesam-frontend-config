@@ -3,7 +3,7 @@ window.lexicons.push({
   name: {
     'all': 'Sesam frökatalog'
   },
-  tabs: ["Frö", "Medlem"],
+  tabs: ["Frö", "Medlem", "Korsningsrisk"],
   view: 'COLUMNS',
   structure: {
     table: 1,
@@ -94,6 +94,45 @@ window.lexicons.push({
         search: 'mnr',
         column: 9,
         tab: 1
+      },
+      'hybrid_risk': {
+        label: 'Korsning',
+        properties: {
+          'comment': {
+            label: {
+              'swe': 'Kommentar',
+              'eng': '-'
+            },
+            search: 'hybrid_risk.comment',
+            column: 10,
+            tab: 2
+          },
+          'risk': {
+            label: 'Korsningsrisk',
+            search: 'hybrid_risk.risk',
+            column: 11,
+            tab: 2
+          },
+          'self-pollination': {
+            label: 'Självpollinerande',
+            search: 'hybrid_risk.self-pollination',
+            column: 12,
+            tab: 2,
+            render: function(aBool) {
+              if(aBool) {
+                return "ja"
+              } else {
+                return "nej"
+              }
+            }
+          },
+          'specices': {
+            label: 'Arter',
+            search: 'hybrid_risk.specices',
+            column: 13,
+            tab: 2
+          }
+        }
       }
     }
   }
